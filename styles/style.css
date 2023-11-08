@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.slider {
+    width:100%;
+    min-height: 80vh;
+    aspect-ratio: 16/9;
+    background-color: black;
+}
+
+.slider-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    filter:brightness(80%);
+}
+
+.slider-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+}
+
+.slider-content {
+    color: black;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.boxed {
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.dark{
+    background: black;
+    color: #FFF;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w40 {
+    width: 40%;    
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.gap20{
+    gap: 20px;
+}
+
+.skill {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.skill img {
+    width: 100%;
+}
+
+.skill h3 {
+    margin-top: 10px;
+}
